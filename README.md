@@ -34,8 +34,7 @@ This is a web application designed to streamline the process of searching and do
 
 2. Install dependencies:
    ```bash
-   pip install Flask
-   pip install scholarly
+   pip install -r requirements.txt
    ```
 
 3. Run the application:
