@@ -86,7 +86,7 @@ def index():
                 for idx, paper in enumerate(top_papers):
                     file.write(f"{idx + 1}. Title: {paper[0]}\n")
                     file.write(f"   Citations: {paper[1]}\n")
-                    file.write(f"   URL: {paper[2]}\n")
+                    # file.write(f"   URL: {paper[2]}\n")
                     file.write(f"   Author: {paper[3]}\n\n")
                 
                 file.write("=" * 50 + "\n")
