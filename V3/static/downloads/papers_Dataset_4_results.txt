@@ -1,0 +1,23 @@
+Searched By: Dataset
+==================================================
+1. Title: Documentary Credit, Fraud and the 1983 Amendment of the Regulations and Usancies (RUU)
+   Citations: 0
+   URL: URL not available
+   Author: ['C Martin']
+
+2. Title: Comparative Analysis of Abortion Arrangement on the Draft Criminal Code (Ruu Kuhp) and Law of the Republic of Indonesia Number 36 of 2009 Concerning Health.
+   Citations: 0
+   URL: URL not available
+   Author: ['MDH NOHO', 'B SANTOSO']
+
+3. Title: The optimization of halal certification in Indonesia: finding right balance between consumer and businessmen interest
+   Citations: 13
+   URL: URL not available
+   Author: ['AQ Syahida', 'AM Nabilah']
+
+4. Title: Empirical detection techniques of insider threat incidents
+   Citations: 39
+   URL: URL not available
+   Author: ['RA Alsowail', 'T Al-Shehari']
+
+==================================================

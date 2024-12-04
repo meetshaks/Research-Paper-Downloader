@@ -1,0 +1,30 @@
+Results for: Cert
+==================================================
+1. Title: Cert: Contrastive self-supervised learning for language understanding
+   Citations: 377
+2. Title: The computer expression recognition toolbox (CERT)
+   Citations: 775
+3. Title: CERT and intracellular trafficking of ceramide
+   Citations: 173
+==================================================
+
+Results for: Ruu
+==================================================
+1. Title: RUU OMNIBUS LAW
+   Citations: 2
+2. Title: Tinjauan Yuridis Terhadap Perilaku Kumpul Kebo (Samen Leven) Menurut RUU KUHP
+   Citations: 13
+3. Title: Reconfiguration analysis of a 4-RUU parallel manipulator
+   Citations: 88
+==================================================
+
+Results for: Cert, Ruu
+==================================================
+1. Title: Documentary Credit, Fraud and the 1983 Amendment of the Regulations and Usancies (RUU)
+   Citations: 0
+2. Title: Comparative Analysis of Abortion Arrangement on the Draft Criminal Code (Ruu Kuhp) and Law of the Republic of Indonesia Number 36 of 2009 Concerning Health.
+   Citations: 0
+3. Title: The optimization of halal certification in Indonesia: finding right balance between consumer and businessmen interest
+   Citations: 13
+==================================================
+

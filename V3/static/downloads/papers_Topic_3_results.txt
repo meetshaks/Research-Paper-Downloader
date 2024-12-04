@@ -1,0 +1,18 @@
+Searched By: Topic
+==================================================
+1. Title: TOPIC: INSIDER THREAT PREVENTION IN THE US BANKING SYSTEM
+   Citations: 0
+   URL: URL not available
+   Author: ['OEI Ejimofor', 'OS Owolabi']
+
+2. Title: Outsourcing information technology and the insider threat
+   Citations: 12
+   URL: URL not available
+   Author: ['VL Caruso']
+
+3. Title: Insider threat response and recovery strategies in financial services firms
+   Citations: 37
+   URL: URL not available
+   Author: ['J Eggenschwiler', 'I Agrafiotis', 'JRC Nurse']
+
+==================================================

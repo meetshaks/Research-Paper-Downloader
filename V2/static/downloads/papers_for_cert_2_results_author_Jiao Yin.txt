@@ -1,0 +1,14 @@
+Results for: cert, Jiao Yin
+==================================================
+1. Title: Graph intelligence enhanced bi-channel insider threat detection
+   Citations: 24
+   URL: URL not available
+   Author: ['W Hong', 'J Yin', 'M You', 'H Wang', 'J Cao', 'J Li']
+
+2. Title: Insider threat detection using supervised machine learning algorithms
+   Citations: 9
+   URL: URL not available
+   Author: ['P Manoharan', 'J Yin', 'H Wang', 'Y Zhang']
+
+==================================================
+

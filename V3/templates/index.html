@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper Downloader</title>
+
+    <!-- Bootstrap CSS (CDN version) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+            padding-top: 20px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+        }
+
+        /* Form Styling */
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        /* Enhanced Dropdown Styling */
+        .dropdown-toggle {
+            background-color: #ffffff;
+            border: 1px solid #ced4da;
+            color: #495057;
+            padding: 6px;
+            font-size: 1rem;
+            border-radius: 5px;
+            width: 100%;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* Focus Effect - Stronger visibility */
+        .dropdown-toggle:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.4);  /* Strong blue shadow around dropdown */
+            background-color: #e9f2ff;  /* Light blue background on focus */
+            transition: all 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .dropdown-toggle:hover {
+            background-color: #f1f1f1;
+            border-color: #007bff;
+        }
+
+        /* Dropdown Menu Styling */
+        .dropdown-menu {
+            border-radius: 5px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-item {
+            font-size: 1rem;
+            padding: 12px 20px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .dropdown-item:focus {
+            background-color: #0056b3;
+        }
+
+        /* Form Controls */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            font-size: 1.1rem;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .form-group {
+                margin-bottom: 15px;
+            }
+        }
+
+    </style>
+
+    <script>
+        // Function to show or hide input fields based on selected search type
+        function updateFormFields() {
+            var searchType = document.getElementById("search_type").value;
+
+            // Show the appropriate fields based on search type
+            document.getElementById("datasets_field").style.display = (searchType.includes("Dataset") ? "block" : "none");
+            document.getElementById("topic_field").style.display = (searchType.includes("Topic") ? "block" : "none");
+            document.getElementById("author_field").style.display = (searchType.includes("Author") ? "block" : "none");
+            document.getElementById("num_papers_field").style.display = "block";  // Always show number of papers field
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center mb-4" style="font-family: 'Open Sans', sans-serif; font-weight: 500; color: #007bff;">Research Paper Downloader</h1>
+        <p class="text-center mb-4">Select your search options below and download papers based on your preferences.</p>
+
+        <!-- Form for searching papers -->
+        <form action="/" method="POST" class="bg-white p-5 rounded shadow-lg">
+
+            <!-- Search Type Dropdown -->
+            <div class="form-group">
+                <label for="search_type" class="font-weight-bold">Search Type</label>
+                <div class="dropdown">
+                    <select id="search_type" name="search_type" class="dropdown-toggle form-control custom-select" onchange="updateFormFields()" required>
+                        <option value="Dataset">Dataset</option>
+                        <option value="Author">Author</option>
+                        <option value="Topic">Topic</option>
+                        <option value="Dataset + Topic">Dataset + Topic</option>
+                        <option value="Dataset + Author">Dataset + Author</option>
+                        <option value="Topic + Author">Topic + Author</option>
+                        <option value="Dataset + Author + Topic">Dataset + Author + Topic</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Dataset field (only visible if Dataset is selected) -->
+            <div id="datasets_field" class="form-group" style="display:none;">
+                <label for="datasets" class="font-weight-bold">Dataset(s) (comma-separated)</label>
+                <input type="text" id="datasets" name="datasets" class="form-control" placeholder="e.g., Cert, Ruu">
+            </div>
+
+            <!-- Topic field (only visible if Topic is selected) -->
+            <div id="topic_field" class="form-group" style="display:none;">
+                <label for="topic" class="font-weight-bold">Topic (optional)</label>
+                <input type="text" id="topic" name="topic" class="form-control" placeholder="e.g., Machine Learning">
+            </div>
+
+            <!-- Author field (only visible if Author is selected) -->
+            <div id="author_field" class="form-group" style="display:none;">
+                <label for="author" class="font-weight-bold">Author (optional)</label>
+                <input type="text" id="author" name="author" class="form-control" placeholder="e.g., John Doe">
+            </div>
+
+            <!-- Number of papers input -->
+            <div id="num_papers_field" class="form-group">
+                <label for="num_papers" class="font-weight-bold">Number of Papers (With High Citation)</label>
+                <input type="number" id="num_papers" name="num_papers" class="form-control" min="1" max="10" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary btn-lg w-100">Download Papers</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Initialize the form based on the default search type selected
+        updateFormFields();
+    </script>
+
+</body>
+</html>

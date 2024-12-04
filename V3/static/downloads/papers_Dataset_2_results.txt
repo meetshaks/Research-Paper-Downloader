@@ -1,0 +1,41 @@
+Searched By: Dataset(s) and Combinations
+==================================================
+Query: Cert
+==================================================
+1. Title: Cert: Contrastive self-supervised learning for language understanding
+   Citations: 377
+   URL: URL not available
+   Author: ['H Fang', 'S Wang', 'M Zhou', 'J Ding', 'P Xie']
+
+2. Title: The computer expression recognition toolbox (CERT)
+   Citations: 775
+   URL: URL not available
+   Author: ['G Littlewort', 'J Whitehill', 'T Wu', 'I Fasel']
+
+==================================================
+Query: Ruu
+==================================================
+1. Title: RUU OMNIBUS LAW
+   Citations: 2
+   URL: URL not available
+   Author: ['A Pangestu']
+
+2. Title: Tinjauan Yuridis Terhadap Perilaku Kumpul Kebo (Samen Leven) Menurut RUU KUHP
+   Citations: 13
+   URL: URL not available
+   Author: ['RA Fathia']
+
+==================================================
+Query: Cert AND Ruu
+==================================================
+1. Title: Documentary Credit, Fraud and the 1983 Amendment of the Regulations and Usancies (RUU)
+   Citations: 0
+   URL: URL not available
+   Author: ['C Martin']
+
+2. Title: Comparative Analysis of Abortion Arrangement on the Draft Criminal Code (Ruu Kuhp) and Law of the Republic of Indonesia Number 36 of 2009 Concerning Health.
+   Citations: 0
+   URL: URL not available
+   Author: ['MDH NOHO', 'B SANTOSO']
+
+==================================================

@@ -1,0 +1,42 @@
+Searched By: Dataset
+==================================================
+1. Title: RUU OMNIBUS LAW
+   Citations: 2
+   URL: URL not available
+   Author: ['A Pangestu']
+
+2. Title: Tinjauan Yuridis Terhadap Perilaku Kumpul Kebo (Samen Leven) Menurut RUU KUHP
+   Citations: 13
+   URL: URL not available
+   Author: ['RA Fathia']
+
+==================================================
+
+Searched By: Author
+==================================================
+1. Title: Enhanced‐efficiency fertilizers are not a panacea for resolving the nitrogen problem
+   Citations: 271
+   URL: URL not available
+   Author: ['T Li', 'W Zhang', 'J Yin', 'D Chadwick', 'D Norse']
+
+2. Title: Sodium titanate nanotubes as negative electrode materials for sodium-ion capacitors
+   Citations: 251
+   URL: URL not available
+   Author: ['J Yin', 'L Qi', 'H Wang']
+
+==================================================
+
+Searched By: Dataset, Author
+==================================================
+1. Title: Insider threat detection using supervised machine learning algorithms
+   Citations: 9
+   URL: URL not available
+   Author: ['P Manoharan', 'J Yin', 'H Wang', 'Y Zhang']
+
+2. Title: A Study on Historical Behaviour Enabled Insider Threat Prediction
+   Citations: 3
+   URL: URL not available
+   Author: ['F Xiao', 'W Hong', 'J Yin', 'H Wang', 'J Cao']
+
+==================================================
+

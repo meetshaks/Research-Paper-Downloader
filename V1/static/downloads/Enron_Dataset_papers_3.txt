@@ -1,0 +1,15 @@
+Top 3 papers for Enron Dataset
+==================================================
+1. Title: The enron corpus: A new dataset for email classification research
+   Citations: 1665
+   URL: URL not available
+
+2. Title: Structure in the Enron email dataset
+   Citations: 160
+   URL: URL not available
+
+3. Title: Introducing the Enron corpus.
+   Citations: 970
+   URL: URL not available
+
+==================================================

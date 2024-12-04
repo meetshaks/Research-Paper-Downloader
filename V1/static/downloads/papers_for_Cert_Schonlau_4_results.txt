@@ -1,0 +1,60 @@
+Results for: Cert
+==================================================
+1. Title: Cert: Contrastive self-supervised learning for language understanding
+   Citations: 377
+   URL: URL not available
+
+2. Title: The computer expression recognition toolbox (CERT)
+   Citations: 775
+   URL: URL not available
+
+3. Title: CERT and intracellular trafficking of ceramide
+   Citations: 173
+   URL: URL not available
+
+4. Title: CERT-mediated trafficking of ceramide
+   Citations: 215
+   URL: URL not available
+
+==================================================
+
+Results for: Schonlau
+==================================================
+1. Title: Computer experiments and global optimization
+   Citations: 633
+   URL: URL not available
+
+2. Title: The clustergram: A graph for visualizing hierarchical and nonhierarchical cluster analyses
+   Citations: 166
+   URL: URL not available
+
+3. Title: Mental disorders among gifted and nongifted youth: A selected review of the epidemiologic literature
+   Citations: 264
+   URL: URL not available
+
+4. Title: Global versus local search in constrained optimization of computer models
+   Citations: 617
+   URL: URL not available
+
+==================================================
+
+Results for: Cert, Schonlau
+==================================================
+1. Title: Does the director labor market offer ex post settling-up for CEOs? The case of acquisitions
+   Citations: 185
+   URL: URL not available
+
+2. Title: Conducting research surveys via e-mail and the web
+   Citations: 1417
+   URL: URL not available
+
+3. Title: Asbestos litigation
+   Citations: 179
+   URL: URL not available
+
+4. Title: Web surveys as part of a mixed-mode strategy for populations that cannot be contacted by e-mail
+   Citations: 73
+   URL: URL not available
+
+==================================================
+

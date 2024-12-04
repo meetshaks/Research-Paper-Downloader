@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper Downloader</title>
+</head>
+<body>
+    <h1>Research Paper Downloader</h1>
+    <p>Enter the dataset names (comma-separated), author (optional), and specify how many papers you want to download.</p>
+
+    <form action="/" method="POST">
+        <label for="datasets">Datasets (comma-separated):</label><br>
+        <input type="text" id="datasets" name="datasets" placeholder="e.g., CERT Dataset, Enron Dataset" required><br><br>
+
+        <label for="author">Author Name (optional):</label><br>
+        <input type="text" id="author" name="author" placeholder="e.g., John Doe"><br><br>
+
+        <label for="num_papers">Number of Papers:</label>
+        <input type="number" id="num_papers" name="num_papers" min="1" max="10" required><br><br>
+
+        <input type="submit" value="Download Papers">
+    </form>
+</body>
+</html>
